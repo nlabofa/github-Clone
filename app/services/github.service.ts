@@ -8,9 +8,7 @@ export class GithubService {
     private client_id = '9b874289c9b9dde99f5b';
     private client_secret='2987b03e6d96ec909168beca9be0bf0e16e737e0';
     
-    constructor(private _http: Http){
-        console.log('Github Service Started...');
-    }
+    constructor(private _http: Http){}
     
     getUser(){
         return this._http.get('https://api.github.com/users/'+this.username+'?client_id='+this.client_id+'&client_secret='+this.client_secret)
