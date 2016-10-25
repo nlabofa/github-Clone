@@ -4,7 +4,7 @@ import 'rxjs/add/operator/map';
 
 @Injectable()
 export class GithubService {
-    private username='bradtraversy';
+    private username='nlabofa';
     private client_id = '9b874289c9b9dde99f5b';
     private client_secret='2987b03e6d96ec909168beca9be0bf0e16e737e0';
     
